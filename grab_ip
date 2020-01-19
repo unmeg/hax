@@ -1,0 +1,13 @@
+import netifaces as ni
+import sys
+
+if len(sys.argv) is not 2:
+	print 'syntax: python sys.argv[0] <interface>'
+	exit()
+
+winterface = sys.argv[1]
+
+ni.ifaddresses(winterface)
+ip = ni.ifaddresses(winterface)[ni.AF_INET][0]['addr']
+
+print ip
