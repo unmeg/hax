@@ -21,9 +21,11 @@ Skeleton for taking notes. I migrated to Cherrytree from OneNote because I found
 Pretty straightforward and easy to use. Load a skeleton for each box. During enum, slide all the services you're investigating out of the 'service list' folder (shift+left arrow). Paste relevant scan results into the appropriate spots within each service. Do you your investigations and keep your notes. Profit!
 
 **Overview**:
+
 ![Standard](https://github.com/unmeg/hax/blob/master/screenshots/basic.PNG)
 
-**Expanded view**
+**Expanded view**:
+
 ![Detailed](https://github.com/unmeg/hax/blob/master/screenshots/expanded.PNG)
 
-I based my template off: https://411hall.github.io/assets/files/CTF_template.ctb 
+[I based my template off this one.](https://411hall.github.io/assets/files/CTF_template.ctb)
