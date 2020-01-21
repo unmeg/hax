@@ -1,10 +1,10 @@
-# hax
+## hax
 Starter pack for OSCP/HTB/VHL/etcetera labs.
 
-Common 
+# Common 
 This has some basic shells and enumeration scripts. Gets you through 80% of boxes. I usually build this out with some common exploits (AutoBlue, JuicyPotato.exe) and other enumeration scripts (Sherlock, unixprivchecker). But they're usually not required.
 
-spawnshell.py 
+# spawnshell.py 
 
 Generates either a bunch of shells or commands for shells (depending on the type you pick), for a specified interface. Good to run when you've got a few boxes to get through and an unchanging IP address.
 
@@ -12,7 +12,7 @@ usage example: python spawnshell.py tun0 1
 
 requirements: pip install netifaces
 
-Cherrytree doc
+# Cherrytree template
 
 Skeleton for taking notes. I migrated to Cherrytree from OneNote because I found the shortcuts for creating and moving nodes genuinely useful, and I also like the icons for quickly identifying what's what. 
 
