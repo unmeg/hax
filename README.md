@@ -16,7 +16,7 @@ requirements: pip install netifaces
 
 # Cherrytree template
 
-Skeleton for taking notes. I migrated to Cherrytree from OneNote because I found the shortcuts for creating and moving nodes genuinely useful, and I also like the icons for quickly identifying what's what. 
+Skeleton for taking notes. I used this Cherrytree template for the OSCP.
 
 Pretty straightforward and easy to use. Load a skeleton for each box. During enum, slide all the services you're investigating out of the 'service list' folder (shift+left arrow). Paste relevant scan results into the appropriate spots within each service. Do you your investigations and keep your notes. Profit!
 
