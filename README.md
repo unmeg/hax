@@ -4,6 +4,8 @@ Starter pack for OSCP/HTB/VHL/etcetera labs.
 # Common 
 This has some basic shells and enumeration scripts. Gets you through 80% of boxes. I usually build this out with some common exploits (AutoBlue, JuicyPotato.exe) and other enumeration scripts (Sherlock, unixprivchecker). But they're usually not required.
 
+Don't forget to update your IP address.
+
 # spawnshell.py 
 
 Generates either a bunch of shells or commands for shells (depending on the type you pick), for a specified interface. Good to run when you've got a few boxes to get through and an unchanging IP address.
